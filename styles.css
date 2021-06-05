@@ -1,0 +1,18 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  border: 10px solid royalblue;
+  display: flex;
+  padding: 1rem;
+}
+.container > div {
+  padding: 1rem;
+  background-color: black;
+  border: 1px solid crimson;
+  margin: 1rem;
+  font-size: 2rem;
+}

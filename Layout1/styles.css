@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+header,
+footer,
+article,
+nav,
+aside {
+  padding: 1rem;
+}
+
+header,
+footer {
+  background-color: #fd367e;
+}
+
+main nav {
+  background-color: #3e4377;
+  flex: 0.2;
+}
+
+aside {
+  background-color: #ff9900;
+  flex: 0.3;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex: 1;
+  display: flex;
+}
+
+main article {
+  flex: 0.6;
+}
